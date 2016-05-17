@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="btVividStupidSlider">
+        <field name="bID" type="I">
+            <key />
+            <unsigned />
+        </field>
+        <field name="fx" type="X2"></field>
+        <field name="speed" type="X2"></field>
+        <field name="duration" type="X2"></field>
+        <field name="width" type="X2"></field>
+        <field name="height" type="X2"></field>
+    </table>
+    <table name="btVividStupidSlide">
+        <field name="id" type="I"><UNSIGNED/><key/><AUTOINCREMENT/></field>
+        <field name="bID" type="X2"></field>
+        <field name="title" type="X2"></field>
+        <field name="fID" type="X2"></field>
+        <field name="sort" type="I"></field>
+    </table>
+</schema>
